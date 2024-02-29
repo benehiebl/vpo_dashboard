@@ -55,7 +55,7 @@ with st.sidebar:
 @st.cache_data
 def load(file_name):
     return xr.open_dataset(file_name).ml_features
-d = load('C:/Users/Acer/Desktop/vpo_dash.nc')
+d = load('vpo_dash.nc')
 
 features_list = np.unique(d.coords["band"].values).tolist()
 features_list.append("unique")
