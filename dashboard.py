@@ -5,8 +5,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 #plt.style.use(["science"])
-
-from sklearn.cluster import KMeans
 import scienceplots
 
 import streamlit as st
